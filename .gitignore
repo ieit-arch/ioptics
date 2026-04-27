@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-egg/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+site-packages/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Always avoid deploying pyinstaller build artifacts
+build/
+dist/
+
+# environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.png
+data/
+datasets/
